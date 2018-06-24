@@ -5,7 +5,7 @@ let win = null;
 
 function createWindow() {
   // Initialize the window to our specified dimensions
-  win = new BrowserWindow({width: 1000, height: 600});
+  win = new BrowserWindow({width: 200, height: 600});
 
   // Specify entry point
   win.loadURL('http://localhost:3000');
